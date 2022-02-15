@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="clothing_type">
+        <item>Economy</item>
+        <item>Business</item>
+        <item>VIP</item>
+        <item>Super Executive</item>
+    </array>
+</resources>

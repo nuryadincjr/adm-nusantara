@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FABsItem">
+        <item name="android:layout_gravity">end|bottom</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <style name="Theme.Ebusantara.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

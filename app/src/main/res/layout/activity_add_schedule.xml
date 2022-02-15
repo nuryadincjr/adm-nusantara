@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddScheduleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/tvId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_rounded"
+                android:text="ID" />
+
+            <TextView
+                android:id="@+id/tvDeparture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_rounded"
+                android:text="Departure" />
+
+            <TextView
+                android:id="@+id/tvArrival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_rounded"
+                android:text="Arrival" />
+
+            <TextView
+                android:id="@+id/tvDepartureTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_rounded"
+                android:text="Departure Time" />
+
+            <TextView
+                android:id="@+id/tvArrivalTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_rounded"
+                android:text="Arrival Time" />
+
+            <TextView
+                android:id="@+id/tvBus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_rounded"
+                android:text="Bus" />
+
+            <Button
+                android:id="@+id/btnAddItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:text="Saves" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
